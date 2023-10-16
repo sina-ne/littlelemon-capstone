@@ -17,7 +17,7 @@ return (
         <a href="#">About</a>
       </li>
       <li>
-        <a href="#">Logi</a>
+        <a href="#">Login</a>
       </li>
     </ul>
   </nav>
