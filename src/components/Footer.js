@@ -2,25 +2,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#">Contact us</a>
         </li>
         <li>
-          <a href="#">Menu</a>
+          <a href="#">Facebook</a>
         </li>
         <li>
-          <a href="#">Reservations</a>
+          <a href="#">Instagram</a>
         </li>
         <li>
-          <a href="#">Order Online</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Login</a>
+          <a href="#">X</a>
         </li>
       </ul>
     </footer>
