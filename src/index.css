@@ -62,3 +62,57 @@ a:hover {
 li {
   list-style-type: none;
 }
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.cards article {
+  background-color: bisque;
+  border-radius: 0.5rem;
+  width: 20rem;
+  padding: 0 1rem;
+  margin: 0 0 1rem 1rem;
+}
+
+.cards article h3 {
+  margin: 2rem 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards article img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.cards article p {
+  font-size: 1rem;
+  margin: 2rem 0;
+  line-height: 1.5rem;
+}
+
+.cards article .read-more {
+  margin: 1rem 0;
+}
+.cards article .read-more a:hover {
+  color: rgb(162, 162, 250);
+  transition: all 0.3s ease;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 50%;
+}
+
+.footer-logo img {
+  width: 4rem;
+  height: auto;
+  margin: 1rem;
+}
