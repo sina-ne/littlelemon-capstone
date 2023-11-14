@@ -22,6 +22,41 @@
   color: #fff;
   text-align: center;
 }
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 10px;
+  height: 10rem;
+  width: 100%;
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background-color: rgb(55, 17, 19);
+  margin: auto;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.nav ul a {
+  display: inline-block;
+  margin: 0.5rem 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.2s ease-out;
+}
+
+.nav ul a:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
 
 .main {
   grid-area: main;
