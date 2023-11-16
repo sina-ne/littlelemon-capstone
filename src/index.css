@@ -18,18 +18,36 @@
 .header {
   grid-area: header;
   padding: 10px;
-  background-color: #495e57;
   color: #fff;
   text-align: center;
 }
-.logo {
+
+header div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header-logo {
   background-size: contain;
   background-repeat: no-repeat;
   font-size: 10px;
-  height: 10rem;
-  width: 100%;
-  max-width: 40rem;
+  height: 100%;
+  width: 10rem;
+  max-width: 20rem;
   margin: 2rem auto;
+}
+
+.cards img {
+  height: auto;
+  width: 100%;
+  max-width: 14rem;
+}
+
+.about img {
+  height: auto;
+  width: 100%;
+  max-width: 15rem;
 }
 
 .nav ul {
@@ -40,6 +58,7 @@
   margin: auto;
   align-items: center;
   border-radius: 13px;
+  background-color: #495e57;
 }
 
 .nav ul a {
@@ -61,6 +80,12 @@
 .main {
   grid-area: main;
   padding: 25px;
+}
+
+main div {
+  display: inline-block;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .left {
@@ -86,11 +111,6 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-.sidebar {
-  padding: 25px;
-  background-color: darkcyan;
-}
-
 a {
   text-decoration: none;
   color: #fff;
@@ -114,12 +134,13 @@ li {
   box-shadow: 2px 4px 20px #888;
   border-radius: 0.5rem;
   width: 20rem;
-  padding: 0 1rem;
+  padding: 0;
   margin: 0 0 1rem 1rem;
 }
 
 .cards article h3 {
   margin: 2rem 0;
+  padding: 0 1rem;
   font-family: "Karla", sans-serif;
 }
 
@@ -127,16 +148,18 @@ li {
   width: 100%;
   height: 14rem;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .cards article p {
   font-size: 1rem;
   margin: 1rem 0;
   line-height: 1.5rem;
+  padding: 0 1rem;
 }
 
 .cards article button {
-  margin: 1rem 0;
+  margin: 1rem 6rem;
 }
 
 footer {

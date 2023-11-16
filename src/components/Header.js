@@ -7,7 +7,9 @@ const Header = () => {
       <div className="header-logo">
         <img src="../imgs/littlelemonlogo.png" alt="Logo of Little Lemon" />
       </div>
-      <Nav />
+      <div>
+        <Nav />
+      </div>
     </header>
   );
 };

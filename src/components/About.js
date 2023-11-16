@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="about">
-      <section className="about">
+      <section className="cards">
         <div>
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
@@ -14,7 +14,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img src="#" alt="Restaurant Impression" />
+          <img src="../imgs/marioadrian.jpg" alt="family owned business" />
         </div>
       </section>
     </div>

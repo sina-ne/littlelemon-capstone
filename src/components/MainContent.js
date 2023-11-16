@@ -3,8 +3,8 @@ import React from "react";
 const MainContent = () => {
   return (
     <main className="main">
-      <section className="intro">
-        <div>
+      <section className="cards">
+        <div className="intro">
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
@@ -15,7 +15,7 @@ const MainContent = () => {
           <button>Reserve a table</button>
         </div>
         <div>
-          <img src="#" alt="Restaurant Impression" />
+          <img src="../imgs/restauranfood.jpg" alt="Restaurant Impression" />
         </div>
       </section>
       <section className="specials">
