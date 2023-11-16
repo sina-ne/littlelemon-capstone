@@ -2,8 +2,8 @@ import React from "react";
 
 const MainContent = () => {
   return (
-    <main class="main">
-      <section class="Intro">
+    <main className="main">
+      <section className="intro">
         <div>
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
@@ -18,24 +18,42 @@ const MainContent = () => {
           <img src="#" alt="Restaurant Impression" />
         </div>
       </section>
-      <section>
+      <section className="specials">
         <h2>Our New Specials</h2>
         <button>Online Menu</button>
-        <div class="cards">
+        <div className="cards">
           <article>
-            <h3>Dish 1</h3>
-            <img src="" alt="article-img-1" />
-            <p>Short description of the dish</p>
+            <img src="../imgs/bruschetta.png" alt="dish-bruschetta" />
+            <h3>Bruschetta $2.96</h3>
+            <p>
+              This is the ultimate summer party appetizer and a great way to use
+              up those sweet and juicy summer tomatoes. We grow tomatoes and
+              basil in our garden and homegrown ingredients will make the best
+              bruschetta you will try.
+            </p>
+            <button>Order a delivery</button>
           </article>
           <article>
-            <h3>Dish 2</h3>
-            <img src="" alt="article-img-1" />
-            <p>Short description of the dish</p>
+            <img src="../imgs/greeksalad.jpg" alt="dish-greeksalad" />
+            <h3>Greek Salad $3.96</h3>
+            <p>
+              Inspired by our journey to Mykonos, we brought home a dash of the
+              Mediterranean ambiance. The classic table salad uses just a few
+              humble ingredients, yet has become a totally iconic dish that's
+              beloved around the world.
+            </p>
+            <button>Order a delivery</button>
           </article>
           <article>
-            <h3>Dish 3</h3>
-            <img src="" alt="article-img-1" />
-            <p>Short description of the dish</p>
+            <img src="../imgs/lemondessert.jpg" alt="dish-lemondessert" />
+            <h3>Lemon Cheescake $4.95</h3>
+            <p>
+              Look no further, this is the only lemon cheesecake you'll ever eat
+              again. Savor every sweet-tart taste of creamiest cheesecake
+              flavored with fresh lemon, nestled between a buttery crust and a
+              layer of homemade lemon curd.
+            </p>
+            <button>Order a delivery</button>
           </article>
         </div>
       </section>

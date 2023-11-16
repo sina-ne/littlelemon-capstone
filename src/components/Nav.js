@@ -2,16 +2,16 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav class="nav">
+    <nav className="nav">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#">Menu</a>
         </li>
         <li>
-          <a href="#">Reservations</a>
+          <a href="#reserve-table">Reservations</a>
         </li>
         <li>
           <a href="#">Order Online</a>
