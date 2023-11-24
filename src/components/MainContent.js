@@ -3,24 +3,32 @@ import React from "react";
 const MainContent = () => {
   return (
     <main className="main">
-      <section className="cards">
-        <div className="intro">
-          <h1>Little Lemon</h1>
-          <h2>Chicago</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-          <button>Reserve a table</button>
+      <div>
+        <section className="intro">
+          <div className="blurb">
+            <h1>Little Lemon</h1>
+            <p>
+              <strong>Based in Chicago</strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </p>
+            <button>Reserve a table</button>
+          </div>
+          <div>
+            <img src="../imgs/restauranfood.jpg" alt="Restaurant Impression" />
+          </div>
+        </section>
+      </div>
+      <section className="specials">
+        <div>
+          <h2 id="#menu">Our New Specials</h2>
         </div>
         <div>
-          <img src="../imgs/restauranfood.jpg" alt="Restaurant Impression" />
+          <button>Online Menu</button>
         </div>
-      </section>
-      <section className="specials">
-        <h2>Our New Specials</h2>
-        <button>Online Menu</button>
         <div className="cards">
           <article>
             <img src="../imgs/bruschetta.png" alt="dish-bruschetta" />
@@ -31,7 +39,7 @@ const MainContent = () => {
               basil in our garden and homegrown ingredients will make the best
               bruschetta you will try.
             </p>
-            <button>Order a delivery</button>
+            <button id="#order-online">Order a delivery</button>
           </article>
           <article>
             <img src="../imgs/greeksalad.jpg" alt="dish-greeksalad" />

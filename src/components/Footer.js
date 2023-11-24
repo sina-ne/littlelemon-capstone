@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-logo">
+      <div className="logo">
         <img src="../imgs/littlelemonlogo.png" alt="Logo of Little Lemon" />
       </div>
       <div className="footer-navigation">
@@ -12,19 +12,19 @@ const Footer = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Menu</a>
+            <a href="#menu">Menu</a>
           </li>
           <li>
-            <a href="#">Reservations</a>
+            <a href="#reserve-table">Reservations</a>
           </li>
           <li>
-            <a href="#">Order Online</a>
+            <a href="#order-online">Order Online</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Login</a>
+            <a href="#login">Login</a>
           </li>
         </ul>
       </div>

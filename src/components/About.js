@@ -4,13 +4,15 @@ const About = () => {
   return (
     <div className="about">
       <section className="cards">
-        <div>
-          <h1>Little Lemon</h1>
-          <h2>Chicago</h2>
+        <div className="blurb">
+          <h2 id="#about">Little Lemon</h2>
+          <h3>Chicago</h3>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            Our family is deeply rooted in Italian culture. In fourth generation
+            we are now running this restaurant, aspiring to mix modern cuisine
+            with italian culture. All our goods are sourced locally and make
+            everything by hand. From linguine to the bruschetta bread everything
+            you eat has been crafted with passion.
           </p>
         </div>
         <div>

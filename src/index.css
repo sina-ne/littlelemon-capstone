@@ -11,15 +11,37 @@
   .container {
     grid-template-columns: 150px 1fr 150px;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: "header header header" "left main right" "footer footer footer";
+    grid-template-areas: "header header header" "main main main" "footer footer footer";
   }
 }
 
-.header {
+h1,
+h2,
+h3 {
+  font-family: "Markazi Text", sans-serif;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 25pt;
+}
+
+p,
+q,
+form {
+  font-family: "Karla", sans-serif;
+  font-size: 16pt;
+}
+
+header {
   grid-area: header;
   padding: 10px;
   color: #fff;
   text-align: center;
+  font-size: 10px;
 }
 
 header div {
@@ -28,26 +50,13 @@ header div {
   flex-wrap: wrap;
 }
 
-.header-logo {
+header img {
   background-size: contain;
   background-repeat: no-repeat;
-  font-size: 10px;
   height: 100%;
   width: 10rem;
   max-width: 20rem;
   margin: 2rem auto;
-}
-
-.cards img {
-  height: auto;
-  width: 100%;
-  max-width: 14rem;
-}
-
-.about img {
-  height: auto;
-  width: 100%;
-  max-width: 15rem;
 }
 
 .nav ul {
@@ -88,12 +97,24 @@ main div {
   flex-wrap: wrap;
 }
 
-.left {
-  grid-area: left;
+.intro {
+  background-color: whitesmoke;
+  padding: 1rem 0 2rem 0;
 }
 
-.right {
-  grid-area: right;
+.intro img {
+  width: 90%;
+  max-width: 12rem;
+  border-radius: 0.5rem;
+}
+
+.intro p {
+  padding: 0 2rem 0 0;
+  text-align: left;
+}
+
+.blurb {
+  width: 70%;
 }
 
 button {
@@ -101,6 +122,8 @@ button {
   background-color: #495e57;
   border-radius: 5px;
   padding: 10px;
+  margin: 10px;
+  font-size: medium;
   font-weight: bold;
   border: none;
 }
@@ -123,6 +146,7 @@ a:hover {
 li {
   list-style-type: none;
 }
+
 .cards {
   display: flex;
   justify-content: space-around;
@@ -141,7 +165,6 @@ li {
 .cards article h3 {
   margin: 2rem 0;
   padding: 0 1rem;
-  font-family: "Karla", sans-serif;
 }
 
 .cards article img {
@@ -151,7 +174,8 @@ li {
   border-radius: 0.5rem;
 }
 
-.cards article p {
+.cards article p,
+q {
   font-size: 1rem;
   margin: 1rem 0;
   line-height: 1.5rem;
@@ -162,32 +186,42 @@ li {
   margin: 1rem 6rem;
 }
 
+.reservation {
+  padding: 2rem 0 5rem 0;
+}
+
+.reservation fieldset {
+  border-style: none;
+}
+
+.testimonials {
+  background-color: whitesmoke;
+  padding: 2rem 0 5rem 0;
+}
+
+.about {
+  padding: 2rem 0 5rem 0;
+}
+
+.about img {
+  height: auto;
+  width: 100%;
+  max-width: 15rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
-}
-
-.footer {
   grid-area: footer;
   padding: 10px;
   background-color: black;
   color: #fff;
   text-align: center;
+  font-family: "Karla", sans-serif;
 }
 
-.footer-logo {
-  width: 50%;
-}
-
-.footer-logo img {
-  width: 4rem;
+footer .logo {
+  width: 20%;
   height: auto;
   margin: 1rem;
-}
-.testimonials {
-  background-color: whitesmoke;
-}
-
-.intro {
-  background-color: whitesmoke;
 }
