@@ -1,4 +1,11 @@
 import React from "react";
+import Reservation from "./Reservation";
+
+/* Check routing
+<Routes>
+  <Route path="/" element={<MainContent />}></Route>
+  <Route path="/reserve-table" element={<Reservation />}></Route>
+</Routes>;*/
 
 const MainContent = () => {
   return (
@@ -24,7 +31,7 @@ const MainContent = () => {
       </div>
       <section className="specials">
         <div>
-          <h2 id="#menu">Our New Specials</h2>
+          <h2 id="menu">Our New Specials</h2>
         </div>
         <div>
           <button>Online Menu</button>
@@ -39,7 +46,7 @@ const MainContent = () => {
               basil in our garden and homegrown ingredients will make the best
               bruschetta you will try.
             </p>
-            <button id="#order-online">Order a delivery</button>
+            <button id="order-online">Order a delivery</button>
           </article>
           <article>
             <img src="../imgs/greeksalad.jpg" alt="dish-greeksalad" />
