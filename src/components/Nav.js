@@ -3,24 +3,27 @@ import React from "react";
 const Nav = () => {
   return (
     <nav className="nav">
+      <div>
+        <img src="../imgs/littlelemonlogo.png" alt="Logo of Little Lemon" />
+      </div>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a>Home</a>
         </li>
         <li>
-          <a href="#menu">Menu</a>
+          <a>Menu</a>
         </li>
         <li>
-          <a href="#reserve-table">Reservations</a>
+          <a>Reservations</a>
         </li>
         <li>
-          <a href="#order-online">Order Online</a>
+          <a>Order Online</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a>About</a>
         </li>
         <li>
-          <a href="#login">Login</a>
+          <a>Login</a>
         </li>
       </ul>
     </nav>

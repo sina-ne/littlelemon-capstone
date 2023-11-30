@@ -40,7 +40,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="footer-socials">
+      <section className="footer-socials">
         <ul>
           <li>Follow us</li>
           <li>
@@ -53,7 +53,7 @@ const Footer = () => {
             <a href="https://twitter.com">X</a>
           </li>
         </ul>
-      </div>
+      </section>
     </footer>
   );
 };
